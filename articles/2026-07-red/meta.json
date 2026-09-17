@@ -8,9 +8,16 @@
   "status": "available",
   "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
   "images": [
-    { "file": "picture-001.jpeg","label": "Full painting" }
-	],
+    {
+      "file": "picture-001.jpeg",
+      "label": "Full painting"
+    }
+  ],
   "videos": [
-  { "file": "video-001.mp4", "label": "Video" }
-  ]
+    {
+      "file": "video-001.mp4",
+      "label": "Video"
+    }
+  ],
+  "order": 5
 }
