@@ -1,0 +1,17 @@
+{
+  "title": "Customer",
+  "medium": "Acrylic",
+  "dimensions": "multi-size",
+  "year": "2026",
+  "price": "Enquire for price",
+  "category": "commission",
+  "status": "sold",
+  "description": "Beutiful bright colourful mandala and mirror effects.",
+  "images": [ 
+	{"file": "picture-001.jpeg", "label": "Picture"},
+	{"file": "picture-002.jpeg", "label": "Picture"},
+	{"file": "picture-003.jpeg", "label": "Picture"}],
+  "videos": [
+  { "file": "video-001.mp4", "label": "Video" }
+  ]
+}

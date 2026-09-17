@@ -1,14 +1,15 @@
 {
-  "title": "Yello Blue",
+  "title": "Yellow Blue",
   "medium": "Acrylic",
   "dimensions": "30 cm",
   "year": "2026",
   "price": "€60",
   "category": "painting",
   "status": "available",
-  "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
+  "description": "True creativity in yellow and blue.",
   "images": [
     { "file": "picture-001.jpeg","label": "Full painting" },
+	{ "file": "picture-002.jpeg","label": "Full painting" },
 	{ "file": "picture-002.jpeg","label": "Full painting" }
 	],
   "videos": null

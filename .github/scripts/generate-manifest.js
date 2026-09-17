@@ -49,12 +49,19 @@ const entries = fs
       category:    meta.category,
       status:      meta.status      || 'available',
       description: meta.description,
+      order:       typeof meta.order === 'number' ? meta.order : null,
       images,
       videos
     }];
-  })
-  .reverse(); // newest folder name (YYYY-MM-*) sorts last → reverse = newest first
+  });
 
-const manifest = { generated: new Date().toISOString(), articles: entries };
+// Articles with an explicit `order` (set via the admin panel) are sorted
+// ascending by that value and shown first. Articles without one fall back
+// to the original default: newest folder name (YYYY-MM-*) first.
+const ordered   = entries.filter(a => a.order !== null).sort((a, b) => a.order - b.order);
+const unordered = entries.filter(a => a.order === null).reverse();
+const sortedEntries = [...ordered, ...unordered];
+
+const manifest = { generated: new Date().toISOString(), articles: sortedEntries };
 fs.writeFileSync(OUTPUT, JSON.stringify(manifest, null, 2));
 console.log(`manifest.json written — ${entries.length} article(s)`);

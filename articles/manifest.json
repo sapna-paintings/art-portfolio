@@ -1,45 +1,26 @@
 {
-  "generated": "2026-06-16T13:26:38.310Z",
+  "generated": "2026-09-17T17:19:47.265Z",
   "articles": [
     {
-      "id": "2026-07-yellowblue1",
-      "path": "articles/2026-07-yellowblue1",
-      "title": "Yello Blue",
+      "id": "2026-07-yellowblue",
+      "path": "articles/2026-07-yellowblue",
+      "title": "Yellow Blue",
       "medium": "Acrylic",
       "dimensions": "30 cm",
       "year": "2026",
       "price": "€60",
       "category": "painting",
       "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
+      "description": "True creativity in yellow and blue.",
+      "order": null,
       "images": [
         {
-          "src": "articles/2026-07-yellowblue1/picture-001.jpeg",
+          "src": "articles/2026-07-yellowblue/picture-001.jpeg",
           "color": null,
           "label": "Full painting"
         },
         {
-          "src": "articles/2026-07-yellowblue1/picture-002.jpeg",
-          "color": null,
-          "label": "Full painting"
-        }
-      ],
-      "videos": []
-    },
-    {
-      "id": "2026-07-yellowblue",
-      "path": "articles/2026-07-yellowblue",
-      "title": "Yello Blue",
-      "medium": "Acrylic",
-      "dimensions": "30 cm",
-      "year": "2026",
-      "price": "€60",
-      "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
-      "images": [
-        {
-          "src": "articles/2026-07-yellowblue/picture-001.jpeg",
+          "src": "articles/2026-07-yellowblue/picture-002.jpeg",
           "color": null,
           "label": "Full painting"
         },
@@ -52,124 +33,6 @@
       "videos": []
     },
     {
-      "id": "2026-07-yellow1",
-      "path": "articles/2026-07-yellow1",
-      "title": "Yellow Delight",
-      "medium": "Acrylic",
-      "dimensions": "60m",
-      "year": "2026",
-      "price": "€200",
-      "category": "painting",
-      "status": "available",
-      "description": "Beutiful shades of yellow",
-      "images": [
-        {
-          "src": "articles/2026-07-yellow1/picture-001.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        }
-      ],
-      "videos": [
-        {
-          "src": "articles/2026-07-yellow1/video-001.mp4",
-          "label": "Process video"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-smallthings",
-      "path": "articles/2026-07-smallthings",
-      "title": "Small and Cute",
-      "medium": "Acrylic",
-      "dimensions": "10x10cm",
-      "year": "2026",
-      "price": "€20",
-      "category": "painting",
-      "status": "available",
-      "description": "Small creations",
-      "images": [
-        {
-          "src": "articles/2026-07-smallthings/picture-001.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-002.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-003.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-004.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-005.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-006.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-007.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-smallthings/picture-008.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
-        }
-      ],
-      "videos": [
-        {
-          "src": "articles/2026-07-smallthings/video-001.mp4",
-          "label": "Process video"
-        },
-        {
-          "src": "articles/2026-07-smallthings/video-002.mp4",
-          "label": "Process video"
-        },
-        {
-          "src": "articles/2026-07-smallthings/video-003.mp4",
-          "label": "Process video"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-red",
-      "path": "articles/2026-07-red",
-      "title": "Red Magic",
-      "medium": "Acrylic",
-      "dimensions": "30 cm",
-      "year": "2026",
-      "price": "€60",
-      "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
-      "images": [
-        {
-          "src": "articles/2026-07-red/picture-001.jpeg",
-          "color": null,
-          "label": "Full painting"
-        }
-      ],
-      "videos": [
-        {
-          "src": "articles/2026-07-red/video-001.mp4",
-          "label": "Video"
-        }
-      ]
-    },
-    {
       "id": "2026-07-mixed",
       "path": "articles/2026-07-mixed",
       "title": "Mixed",
@@ -180,6 +43,7 @@
       "category": "mixed",
       "status": "available",
       "description": "Mixed Media",
+      "order": null,
       "images": [
         {
           "src": "articles/2026-07-mixed/picture-001.jpeg",
@@ -250,61 +114,6 @@
       ]
     },
     {
-      "id": "2026-07-misc1",
-      "path": "articles/2026-07-misc1",
-      "title": "Misc",
-      "medium": "Acrylic",
-      "dimensions": "30 cm",
-      "year": "2026",
-      "price": "€60",
-      "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
-      "images": [
-        {
-          "src": "articles/2026-07-misc1/picture-001.jpeg",
-          "color": null,
-          "label": "Picture"
-        }
-      ],
-      "videos": [
-        {
-          "src": "articles/2026-07-misc1/video-001.mp4",
-          "label": "Video"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-greenblue",
-      "path": "articles/2026-07-greenblue",
-      "title": "Green Blue",
-      "medium": "Acrylic",
-      "dimensions": "30 cm",
-      "year": "2026",
-      "price": "€60",
-      "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
-      "images": [
-        {
-          "src": "articles/2026-07-greenblue/picture-001.jpeg",
-          "color": null,
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-greenblue/picture-002.jpeg",
-          "color": null,
-          "label": "Full painting"
-        },
-        {
-          "src": "articles/2026-07-greenblue/picture-003.jpeg",
-          "color": null,
-          "label": "Full painting"
-        }
-      ],
-      "videos": []
-    },
-    {
       "id": "2026-07-green",
       "path": "articles/2026-07-green",
       "title": "Green Black",
@@ -315,6 +124,7 @@
       "category": "painting",
       "status": "available",
       "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
+      "order": null,
       "images": [
         {
           "src": "articles/2026-07-green/picture-001.jpeg",
@@ -340,25 +150,26 @@
       "category": "painting",
       "status": "Sold",
       "description": "Beutiful shades of yellow",
+      "order": null,
       "images": [
         {
           "src": "articles/2026-07-commission1/picture-001.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+          "color": null,
           "label": "Full painting"
         },
         {
           "src": "articles/2026-07-commission1/picture-002.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+          "color": null,
           "label": "Full painting"
         },
         {
           "src": "articles/2026-07-commission1/picture-003.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+          "color": null,
           "label": "Full painting"
         },
         {
           "src": "articles/2026-07-commission1/picture-004.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+          "color": null,
           "label": "Full painting"
         }
       ],
@@ -374,108 +185,485 @@
       ]
     },
     {
-      "id": "2026-07-blue-chakra",
-      "path": "articles/2026-07-blue-chakra",
-      "title": "Blue Chakra",
+      "id": "2026-01-customer2",
+      "path": "articles/2026-01-customer2",
+      "title": "Customer",
+      "medium": "Acrylic",
+      "dimensions": "multi-size",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "commission",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2026-01-customer2/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2026-01-customer2/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2026-01-customer2/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2026-01-customer2/video-001.mp4",
+          "label": "Video"
+        },
+        {
+          "src": "articles/2026-01-customer2/video-002.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-Customer1",
+      "path": "articles/2026-01-Customer1",
+      "title": "Customer",
+      "medium": "Acrylic",
+      "dimensions": "multi-size",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "commission",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2026-01-Customer1/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2026-01-Customer1/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2026-01-Customer1/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2026-01-Customer1/picture-004.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2026-01-Customer1/video-001.mp4",
+          "label": "Video"
+        },
+        {
+          "src": "articles/2026-01-Customer1/video-002.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-rainbow",
+      "path": "articles/2006-01-rainbow",
+      "title": "Bright Canvas Mandala",
+      "medium": "Acrylic",
+      "dimensions": "60X80cm",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "painting",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-rainbow/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-rainbow/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-rainbow/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-rainbow/picture-004.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-rainbow/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-customer3",
+      "path": "articles/2006-01-customer3",
+      "title": "Customer",
+      "medium": "Acrylic",
+      "dimensions": "multi-size",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "commission",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-customer3/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-customer3/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-customer3/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-canvasbrightcolors",
+      "path": "articles/2006-01-canvasbrightcolors",
+      "title": "Bright Canvas Mandala",
+      "medium": "Acrylic",
+      "dimensions": "60X80cm",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "painting",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-canvasbrightcolors/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-canvasbrightcolors/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-canvasbrightcolors/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-canvasbrightcolors/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-buddhatree",
+      "path": "articles/2006-01-buddhatree",
+      "title": "Buddha Tree",
       "medium": "Acrylic",
       "dimensions": "30cm",
       "year": "2026",
-      "price": "€100",
+      "price": "Enquire for price",
       "category": "painting",
-      "status": "available",
-      "description": "Beutiful shades of yellow",
+      "status": "sold",
+      "description": "Buddha tree.",
+      "order": null,
       "images": [
         {
-          "src": "articles/2026-07-blue-chakra/picture-001.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
+          "src": "articles/2006-01-buddhatree/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-buddhatree/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-blueChakra mandala",
+      "path": "articles/2006-01-blueChakra mandala",
+      "title": "Blue Chakra",
+      "medium": "Acrylic",
+      "dimensions": "40cm",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "painting",
+      "status": "sold",
+      "description": "Blue chakra.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-blueChakra mandala/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
         },
         {
-          "src": "articles/2026-07-blue-chakra/picture-002.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
-          "label": "Full painting"
+          "src": "articles/2006-01-blueChakra mandala/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
         }
       ],
       "videos": []
     },
     {
-      "id": "2026-06-buddha2",
-      "path": "articles/2026-06-buddha2",
-      "title": "Peaceful Buddha",
+      "id": "2006-01-autumnmandalasmall",
+      "path": "articles/2006-01-autumnmandalasmall",
+      "title": "Autumn Mandala - Small",
       "medium": "Acrylic",
-      "dimensions": "30 cm",
+      "dimensions": "30cm",
       "year": "2026",
-      "price": "€60",
+      "price": "Enquire for price",
       "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
-      "images": [],
-      "videos": [
-        {
-          "src": "articles/2026-06-buddha2/video-001.mp4",
-          "label": "Video"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-buddha1",
-      "path": "articles/2026-06-buddha1",
-      "title": "Peaceful Buddha",
-      "medium": "Acrylic",
-      "dimensions": "30 cm",
-      "year": "2026",
-      "price": "€60",
-      "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
       "images": [
         {
-          "src": "articles/2026-06-buddha1/picture-001.jpeg",
+          "src": "articles/2006-01-autumnmandalasmall/picture-001.jpeg",
           "color": null,
-          "label": "Full painting"
+          "label": "Picture"
         },
         {
-          "src": "articles/2026-06-buddha1/picture-002.jpeg",
+          "src": "articles/2006-01-autumnmandalasmall/picture-002.jpeg",
           "color": null,
-          "label": "Full painting"
+          "label": "Picture"
         },
         {
-          "src": "articles/2026-06-buddha1/picture-003.jpeg",
+          "src": "articles/2006-01-autumnmandalasmall/picture-003.jpeg",
           "color": null,
-          "label": "Full painting"
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumnmandalasmall/picture-004.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumnmandalasmall/picture-005.jpeg",
+          "color": null,
+          "label": "Picture"
         }
       ],
       "videos": [
         {
-          "src": "articles/2026-06-buddha1/video-001.mp4",
+          "src": "articles/2006-01-autumnmandalasmall/video-001.mp4",
           "label": "Video"
         }
       ]
     },
     {
-      "id": "2026-06-buddha",
-      "path": "articles/2026-06-buddha",
-      "title": "Peaceful Buddha",
-      "medium": "Watercolour on 300gsm cold press",
-      "dimensions": "40×55 cm",
+      "id": "2006-01-autumn",
+      "path": "articles/2006-01-autumn",
+      "title": "Autumn Mandala",
+      "medium": "Acrylic",
+      "dimensions": "60cm",
       "year": "2026",
-      "price": "€200",
+      "price": "Enquire for price",
       "category": "painting",
-      "status": "available",
-      "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
       "images": [
         {
-          "src": "articles/2026-06-buddha/buddha-1.jpeg",
-          "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+          "src": "articles/2006-01-autumn/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumn/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumn/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumn/picture-004.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumn/picture-005.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumn/picture-006.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-autumn/picture-007.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-autumn/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-Customer4",
+      "path": "articles/2006-01-Customer4",
+      "title": "Customer",
+      "medium": "Acrylic",
+      "dimensions": "multi-size",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "commission",
+      "status": "sold",
+      "description": "Beutiful bright colourful mandala and mirror effects.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-Customer4/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-Customer4/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-Customer4/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-Customer4/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-Blue50cm mandala",
+      "path": "articles/2006-01-Blue50cm mandala",
+      "title": "Blue Mandala",
+      "medium": "Acrylic",
+      "dimensions": "50cm",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "painting",
+      "status": "sold",
+      "description": "Blue blue blue.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-Blue50cm mandala/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "id": "2006-01-BlackBuddha",
+      "path": "articles/2006-01-BlackBuddha",
+      "title": "Buddha - Black",
+      "medium": "Acrylic",
+      "dimensions": "30 * 40cm",
+      "year": "2026",
+      "price": "Enquire for price",
+      "category": "painting",
+      "status": "sold",
+      "description": "Calm and Peaceful buddha.",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-BlackBuddha/picture-001.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-BlackBuddha/picture-002.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-BlackBuddha/picture-003.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-BlackBuddha/picture-004.jpeg",
+          "color": null,
+          "label": "Picture"
+        },
+        {
+          "src": "articles/2006-01-BlackBuddha/picture-005.jpeg",
+          "color": null,
+          "label": "Picture"
+        }
+      ],
+      "videos": [
+        {
+          "src": "articles/2006-01-BlackBuddha/video-001.mp4",
+          "label": "Video"
+        }
+      ]
+    },
+    {
+      "id": "2006-01-3Deffectmandala",
+      "path": "articles/2006-01-3Deffectmandala",
+      "title": "3D Effect Mandala",
+      "medium": "Acrylic",
+      "dimensions": "50 cm",
+      "year": "2026",
+      "price": "Sold",
+      "category": "painting",
+      "status": "Sold",
+      "description": "3D Effect Mandala",
+      "order": null,
+      "images": [
+        {
+          "src": "articles/2006-01-3Deffectmandala/images-001.jpeg",
+          "color": null,
           "label": "Full painting"
         },
         {
-          "src": "articles/2026-06-buddha/buddha-2.jpeg",
-          "color": "linear-gradient(160deg,#b8d5c0,#3a6c49)",
+          "src": "articles/2006-01-3Deffectmandala/images-001.jpeg",
+          "color": null,
           "label": "Centre detail"
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "src": "articles/2006-01-3Deffectmandala/video-001.jpeg",
+          "label": "Full painting"
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,30 @@ A clean, editorial-style portfolio website for handmade art. Features a filterab
 ## Live site
 
 Deployed via **GitHub Pages** (free hosting):  
-`https://nispat.github.io/art-portfolio/`
+`https://sapna-paintings.github.io/art-portfolio/`
+
+---
+
+## Admin panel
+
+`admin.html` lets you add/delete photos & videos and reorder the gallery from a browser — no git needed day-to-day.
+
+**How it works:** this site has no backend, so the admin panel commits directly to this repo using the GitHub REST API. Pushing to `main` re-triggers the normal deploy workflow automatically.
+
+**One-time setup:**
+1. Create a [fine-grained Personal Access Token](https://github.com/settings/tokens?type=beta) scoped to only the `sapna-paintings/art-portfolio` repo, with **Contents: Read and write** permission.
+2. Open `admin.html`, sign in (see credentials below), then paste the token into the "Connect GitHub" screen. It's stored only in your browser's `localStorage` and sent directly to `api.github.com`.
+
+**Login credentials:** fixed username/password, checked client-side — this is a convenience gate only (not real security; the JS is publicly readable), so don't rely on it to protect anything sensitive. Default is `admin` / `changeme123`. **Change it**: in any browser console, run
+
+```js
+crypto.subtle.digest('SHA-256', new TextEncoder().encode('newuser:newpass'))
+  .then(b => console.log([...new Uint8Array(b)].map(x => x.toString(16).padStart(2,'0')).join('')))
+```
+
+and paste the resulting hash into `CREDENTIAL_SHA256` in `js/admin.js`.
+
+**Reordering:** the admin panel writes an explicit `order` number into each article's `meta.json`. `.github/scripts/generate-manifest.js` sorts ordered articles first (ascending), then falls back to newest-folder-first for any article that hasn't been touched by the admin panel yet.
 
 ---
 
@@ -80,7 +103,7 @@ async function handleSubmit(e) {
 1. Go to your repo on GitHub → **Settings → Pages**.
 2. Under *Source*, select **GitHub Actions**.
 3. The workflow in `.github/workflows/deploy.yml` handles the rest.
-4. Your site will be live at `https://nispat.github.io/<repo-name>/`.
+4. Your site will be live at `https://sapna-paintings.github.io/art-portfolio/`.
 
 ---
 

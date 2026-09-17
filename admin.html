@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Admin — Atelier</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/admin.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body class="admin-body">
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Atelier</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Gallery</a></li>
+      <li><a href="admin.html" class="active">Admin</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="menu">&#9776;</button>
+  </nav>
+
+  <!-- LOGIN SCREEN -->
+  <section class="admin-login" id="loginScreen">
+    <div class="admin-login-box">
+      <h1>Admin sign in</h1>
+      <form id="loginForm">
+        <div class="admin-field">
+          <label for="loginUser">Username</label>
+          <input type="text" id="loginUser" autocomplete="username" required />
+        </div>
+        <div class="admin-field">
+          <label for="loginPass">Password</label>
+          <input type="password" id="loginPass" autocomplete="current-password" required />
+        </div>
+        <p class="admin-error" id="loginError"></p>
+        <button type="submit" class="admin-btn">Sign in</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- GITHUB TOKEN SCREEN -->
+  <section class="admin-login admin-hidden" id="tokenScreen">
+    <div class="admin-login-box">
+      <h1>Connect GitHub</h1>
+      <p class="admin-hint" style="margin-top:-0.5rem">
+        Changes are published by committing directly to the
+        <code>sapna-paintings/art-portfolio</code> repo. Paste a fine-grained
+        <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">Personal Access Token</a>
+        scoped to this repo with <strong>Contents: Read and write</strong>. It's stored only in this browser
+        (localStorage) and sent directly to api.github.com — never to any other server.
+      </p>
+      <form id="tokenForm">
+        <div class="admin-field">
+          <label for="tokenInput">GitHub token</label>
+          <input type="password" id="tokenInput" autocomplete="off" required />
+        </div>
+        <p class="admin-error" id="tokenError"></p>
+        <button type="submit" class="admin-btn">Connect</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- DASHBOARD -->
+  <div class="admin-wrap admin-hidden" id="dashboard">
+
+    <div class="admin-topbar">
+      <h1>Manage artwork</h1>
+      <div class="admin-topbar-actions">
+        <button class="admin-btn" id="newArticleBtn">+ New piece</button>
+        <button class="admin-btn admin-btn--ghost" id="forgetTokenBtn">Disconnect GitHub</button>
+        <button class="admin-btn admin-btn--ghost" id="logoutBtn">Log out</button>
+      </div>
+    </div>
+
+    <p class="admin-status" id="globalStatus"></p>
+
+    <!-- ARTICLE LIST -->
+    <section class="admin-panel" id="listPanel">
+      <h2>Pieces <span style="font-size:0.7rem;color:var(--warm-mid);font-family:'DM Mono',monospace">(use ↑ / ↓ to set display order, then Save order)</span></h2>
+      <div class="admin-article-list" id="articleList">
+        <p class="admin-hint">Loading…</p>
+      </div>
+      <div style="margin-top:1rem;display:flex;gap:0.75rem;">
+        <button class="admin-btn admin-btn--small admin-hidden" id="saveOrderBtn">Save order</button>
+      </div>
+    </section>
+
+    <!-- EDITOR -->
+    <section class="admin-panel admin-hidden" id="editorPanel">
+      <a class="admin-back-link" id="backToList">&larr; Back to list</a>
+      <h2 id="editorHeading">Edit piece</h2>
+
+      <form id="editorForm">
+        <div class="admin-form-grid">
+          <div class="admin-field">
+            <label for="fieldId">Folder id (slug)</label>
+            <input type="text" id="fieldId" placeholder="2026-09-my-new-piece" required />
+          </div>
+          <div class="admin-field">
+            <label for="fieldTitle">Title</label>
+            <input type="text" id="fieldTitle" required />
+          </div>
+          <div class="admin-field">
+            <label for="fieldMedium">Medium</label>
+            <input type="text" id="fieldMedium" />
+          </div>
+          <div class="admin-field">
+            <label for="fieldDimensions">Dimensions</label>
+            <input type="text" id="fieldDimensions" />
+          </div>
+          <div class="admin-field">
+            <label for="fieldYear">Year</label>
+            <input type="text" id="fieldYear" />
+          </div>
+          <div class="admin-field">
+            <label for="fieldPrice">Price</label>
+            <input type="text" id="fieldPrice" placeholder="€120 or Sold" />
+          </div>
+          <div class="admin-field">
+            <label for="fieldCategory">Category</label>
+            <select id="fieldCategory">
+              <option value="painting">Painting</option>
+              <option value="textile">Textile</option>
+              <option value="sculpture">Sculpture</option>
+              <option value="mixed">Mixed Media</option>
+            </select>
+          </div>
+          <div class="admin-field">
+            <label for="fieldStatus">Status</label>
+            <input type="text" id="fieldStatus" placeholder="available / sold" />
+          </div>
+          <div class="admin-field admin-field--full">
+            <label for="fieldDescription">Description</label>
+            <textarea id="fieldDescription"></textarea>
+          </div>
+        </div>
+        <p class="admin-error" id="editorError"></p>
+        <button type="submit" class="admin-btn">Save details</button>
+        <button type="button" class="admin-btn admin-btn--danger" id="deleteArticleBtn">Delete this piece</button>
+      </form>
+
+      <h2 style="margin-top:2rem">Images</h2>
+      <div class="admin-media-grid" id="imageGrid"></div>
+      <div class="admin-upload-row">
+        <input type="file" id="imageFileInput" accept="image/*" />
+        <input type="text" id="imageLabelInput" placeholder="Label (e.g. Front view)" />
+        <button type="button" class="admin-btn admin-btn--small" id="uploadImageBtn">Upload image</button>
+      </div>
+
+      <h2 style="margin-top:2rem">Videos</h2>
+      <div class="admin-media-grid" id="videoGrid"></div>
+      <div class="admin-upload-row">
+        <input type="file" id="videoFileInput" accept="video/*" />
+        <input type="text" id="videoLabelInput" placeholder="Label (e.g. Process video)" />
+        <button type="button" class="admin-btn admin-btn--small" id="uploadVideoBtn">Upload video</button>
+      </div>
+
+      <p class="admin-status" id="editorStatus"></p>
+    </section>
+
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

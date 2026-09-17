@@ -1,0 +1,283 @@
+/* ============================================================
+   ATELIER — Admin Panel CSS
+   Extends css/style.css (shared vars, fonts, nav, footer)
+   ============================================================ */
+
+.admin-body { min-height: calc(100vh - var(--nav-h)); }
+
+.admin-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 5vw, 4rem);
+}
+
+/* ---------- Login screen ---------- */
+.admin-login {
+  min-height: calc(100vh - var(--nav-h));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.admin-login-box {
+  width: 100%;
+  max-width: 360px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2.5rem;
+}
+
+.admin-login-box h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+}
+
+.admin-field { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1.1rem; }
+
+.admin-field label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--warm-mid);
+}
+
+.admin-field input,
+.admin-field select,
+.admin-field textarea {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  outline: none;
+  width: 100%;
+  transition: border-color var(--transition);
+}
+
+.admin-field input:focus,
+.admin-field select:focus,
+.admin-field textarea:focus { border-color: var(--accent); }
+
+.admin-field textarea { resize: vertical; min-height: 5rem; }
+
+.admin-hint { font-size: 0.8rem; color: var(--warm-mid); margin-top: -0.5rem; margin-bottom: 1.1rem; }
+.admin-hint a { color: var(--accent); }
+
+.admin-btn {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.7rem 1.3rem;
+  background: var(--ink);
+  color: var(--cream);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.admin-btn:hover { background: var(--accent); }
+.admin-btn:disabled { opacity: 0.5; cursor: default; }
+
+.admin-btn--ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.admin-btn--ghost:hover { background: var(--line); color: var(--ink); }
+
+.admin-btn--danger { background: #a33; }
+.admin-btn--danger:hover { background: #c44; }
+
+.admin-btn--small { padding: 0.4rem 0.8rem; font-size: 0.62rem; }
+
+.admin-error {
+  color: #a33;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  min-height: 1.2em;
+}
+
+.admin-status {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--warm-mid);
+  min-height: 1.4em;
+  margin: 0.75rem 0;
+}
+
+.admin-status.busy { color: var(--accent); }
+.admin-status.error { color: #a33; }
+.admin-status.ok { color: #4a7c59; }
+
+/* ---------- Dashboard shell ---------- */
+.admin-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.admin-topbar h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.admin-topbar-actions { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+
+.admin-panel {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.admin-panel h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Article list ---------- */
+.admin-article-list { display: flex; flex-direction: column; gap: 0.75rem; }
+
+.admin-article-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.admin-article-thumb {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--line);
+  flex-shrink: 0;
+}
+
+.admin-article-meta { flex: 1; min-width: 0; }
+
+.admin-article-meta .title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+}
+
+.admin-article-meta .sub {
+  font-size: 0.8rem;
+  color: var(--warm-mid);
+  font-family: 'DM Mono', monospace;
+}
+
+.admin-article-actions { display: flex; gap: 0.4rem; flex-shrink: 0; }
+
+/* ---------- Media manager ---------- */
+.admin-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-media-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.admin-media-card img,
+.admin-media-card video {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  background: var(--ink);
+}
+
+.admin-media-card-body { padding: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem; }
+
+.admin-media-card-body input {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ink);
+}
+
+.admin-media-card-actions { display: flex; justify-content: space-between; gap: 0.3rem; }
+
+.admin-media-card-actions button {
+  flex: 1;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.62rem;
+  padding: 0.3rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background var(--transition);
+}
+
+.admin-media-card-actions button:hover { background: var(--line); }
+
+.admin-upload-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.admin-upload-row input[type="text"] {
+  flex: 1;
+  min-width: 160px;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+}
+
+.admin-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.25rem;
+}
+
+.admin-form-grid .admin-field--full { grid-column: 1 / -1; }
+
+.admin-hidden { display: none !important; }
+
+.admin-back-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--warm-mid);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.admin-back-link:hover { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .admin-form-grid { grid-template-columns: 1fr; }
+  .admin-article-row { flex-wrap: wrap; }
+}
