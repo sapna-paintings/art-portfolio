@@ -7,6 +7,11 @@
   "category": "painting",
   "status": "available",
   "description": "",
-  "images": [],
+  "images": [
+    {
+      "file": "img-1789670075264.jpeg",
+      "label": ""
+    }
+  ],
   "videos": []
 }
