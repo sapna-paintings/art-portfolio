@@ -8,8 +8,17 @@
   "status": "available",
   "description": "Wet-on-wet washes of sap green, Payne's grey and burnt umber, built in long sessions with the paper at a tilt. The soft blooms and bleeds are part of the piece — collaboration between paint and gravity.",
   "images": [
-    { "file": "buddha-1.jpeg", "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)", "label": "Full painting" },
-    { "file": "buddha-2.jpeg", "color": "linear-gradient(160deg,#b8d5c0,#3a6c49)", "label": "Centre detail" }
+    {
+      "file": "buddha-1.jpeg",
+      "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+      "label": "Full painting"
+    },
+    {
+      "file": "buddha-2.jpeg",
+      "color": "linear-gradient(160deg,#b8d5c0,#3a6c49)",
+      "label": "Centre detail"
+    }
   ],
-  "video": null
+  "video": null,
+  "order": 14
 }
