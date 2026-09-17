@@ -7,11 +7,25 @@
   "category": "commission",
   "status": "sold",
   "description": "Beutiful bright colourful mandala and mirror effects.",
-  "images": [ 
-	{"file": "picture-001.jpeg", "label": "Picture"},
-	{"file": "picture-002.jpeg", "label": "Picture"},
-	{"file": "picture-003.jpeg", "label": "Picture"}],
+  "images": [
+    {
+      "file": "picture-001.jpeg",
+      "label": "Picture"
+    },
+    {
+      "file": "picture-002.jpeg",
+      "label": "Picture"
+    },
+    {
+      "file": "picture-003.jpeg",
+      "label": "Picture"
+    }
+  ],
   "videos": [
-  { "file": "video-001.mp4", "label": "Video" }
-  ]
+    {
+      "file": "video-001.mp4",
+      "label": "Video"
+    }
+  ],
+  "order": 15
 }
