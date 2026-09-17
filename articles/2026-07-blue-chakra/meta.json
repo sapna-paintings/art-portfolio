@@ -8,8 +8,17 @@
   "status": "available",
   "description": "Beutiful shades of yellow",
   "images": [
-    { "file": "picture-001.jpeg", "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)", "label": "Full painting" },
-	{ "file": "picture-002.jpeg", "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)", "label": "Full painting" }
+    {
+      "file": "picture-001.jpeg",
+      "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-002.jpeg",
+      "color": "linear-gradient(135deg,#a8c5b0,#4a7c59)",
+      "label": "Full painting"
+    }
   ],
-  "videos": null
+  "videos": null,
+  "order": 11
 }
