@@ -8,20 +8,60 @@
   "status": "available",
   "description": "Mixed Media",
   "images": [
-    { "file": "picture-001.jpeg", "label": "Full painting" },
-	{ "file": "picture-002.jpeg", "label": "Full painting" },
-	{ "file": "picture-003.jpeg", "label": "Full painting" },
-	{ "file": "picture-004.jpeg", "label": "Full painting" },
-	{ "file": "picture-005.jpeg", "label": "Full painting" },
-	{ "file": "picture-006.jpeg", "label": "Full painting" },
-	{ "file": "picture-007.jpeg", "label": "Full painting" },
-	{ "file": "picture-008.jpeg", "label": "Full painting" },
-	{ "file": "picture-009.jpeg", "label": "Full painting" },
-	{ "file": "picture-010.jpeg", "label": "Full painting" },
-	{ "file": "picture-011.jpeg", "label": "Full painting" },
-	{ "file": "picture-012.jpeg", "label": "Full painting" }
+    {
+      "file": "picture-001.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-002.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-003.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-004.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-005.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-006.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-007.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-008.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-009.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-010.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-011.jpeg",
+      "label": "Full painting"
+    },
+    {
+      "file": "picture-012.jpeg",
+      "label": "Full painting"
+    }
   ],
-  "videos": [ 
-	{ "file": "video-001.mp4", "label": "Process video" }
-  ]
+  "videos": [
+    {
+      "file": "video-001.mp4",
+      "label": "Process video"
+    }
+  ],
+  "order": 14
 }
