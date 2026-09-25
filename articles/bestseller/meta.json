@@ -7,6 +7,11 @@
   "category": "painting",
   "status": "SOLD",
   "description": "Autumn colors",
-  "images": [],
+  "images": [
+    {
+      "file": "img-1790338386780.jpeg",
+      "label": ""
+    }
+  ],
   "videos": []
 }
